@@ -1,9 +1,9 @@
 Add to Home Screen Floating Layer
 =================================
 
-The script places a floating balloon to your mobile website inviting the user to add your app to the home screen. This is compatible with iPhone/4/iPod-touch and iPad, iOS >= 3.1.1.
+The script places a floating balloon to your mobile website inviting the user to add your app to the home screen. This is compatible with iPhone/4/5/iPod-touch and iPad, iOS >= 3.1.1.
 
-Version: 2.0.4 - [Official homepage](http://cubiq.org/add-to-home-screen) - [Video](http://vimeo.com/19090537)
+Version: 2.0.11 - [Official homepage](http://cubiq.org/add-to-home-screen) - [Video](http://vimeo.com/19090537)
 
 ## Usage
 Include the script and the stylesheet in your page HEAD. That's all. Look at the examples for advanced features. Documentation on [cubiq.org](http://cubiq.org/add-to-home-screen).
@@ -11,6 +11,7 @@ Include the script and the stylesheet in your page HEAD. That's all. Look at the
 ## Localization
 The script auto-detects the user's locale and shows the message in the appropriate language. Currently the following languages are supported:
 
+- Arabic [ar]: (thanks to [RageZBla](https://github.com/RageZBla))
 - Catalan [ca_es]: Per instal·lar aquesta aplicació al vostre %device premeu '%icon' i llavors 'Afegir a pantalla d'inici'. (thanks to [@canuda10](http://twitter.com/#!/canuda10))
 - Croatian [hr_hr]: Instaliraj ovu aplikaciju na svoj %device: klikni na '%icon' i odaberi 'Dodaj u početni zaslon'. (thanks to Nikola)
 - Danish [da_dk]: Tilføj denne side til din %device: tryk på '%icon' og derefter 'Tilføj til hjemmeskærm'. (thanks to [jimmiw](https://github.com/jimmiw))
@@ -26,14 +27,15 @@ The script auto-detects the user's locale and shows the message in the appropria
 - Japanese [ja_jp]: このウェブアプリをあなたの%deviceにインストールするには'%icon'をタップして'ホーム画面に追加'を選んでください。(thanks to [@takatama](http://twitter.com/#!/takatama))
 - Korean [ko_kr]: %device에 웹앱을 설치하려면 %icon을 터치 후 "홈화면에 추가"를 선택하세요, (thanks to [@evashork](http://twitter.com/#!/evashork))
 - Norwegian [nb_no]: Installer denne appen på din %device: trykk på '%icon' og deretter 'Legg til på Hjem-skjerm' (thanks to Thomas)
-- Dutch [nl_nl]: Installeer deze webapp op uw %device: tik '%icon' en dan 'Zet in beginscherm'. (thanks to [@Kracht0147](http://twitter.com/#!/Kracht0147))
+- Dutch [nl_nl]: Installeer deze webapp op uw %device: tik '%icon' en dan 'Voeg toe aan beginscherm'. (thanks to [@Kracht0147](http://twitter.com/#!/Kracht0147))
 - Polish [pl_pl]: Aby zainstalować tę aplikacje na %device: naciśnij %icon a następnie 'Dodaj jako ikonę'. (thanks to [Damian B](http://dbielawski.com/))
-- Portuguese [pt_br]: Instale este web app em seu %device: aperte '%icon' e selecione 'Adicionar à Tela Inicio'. (thanks to [@mariozuany](http://twitter.com/#!/mariozuany))
+- Portuguese [pt_br]: Instale este aplicativo em seu %device: aperte '%icon' e selecione 'Adicionar à Tela Inicio'. (thanks to [@mariozuany](http://twitter.com/#!/mariozuany))
 - Portuguese [pt_pt]: Para instalar esta aplicação no seu %device, prima o '%icon' e depois o 'Adicionar ao ecrã principal'. (thanks to [@maboa](http://twitter.com/#!/maboa))
 - Russian [ru_ru]: Установите это веб-приложение на ваш %device: нажмите '%icon', затем 'Добавить в «Домой»'. (thanks to [@myfreeweb](http://twitter.com/#!/myfreeweb))
 - Swedish [sv_se]: Lägg till denna webbapplikation på din %device: tryck på '%icon' och därefter 'Lägg till på hemskärmen'. (thanks to [@fransrosen](http://twitter.com/#!/fransrosen))
 - Thai [th_th]: ติดตั้งเว็บแอพฯ นี้บน %device ของคุณ: แตะ %icon และ เพิ่มที่หน้าจอโฮม (thanks to [@maxart](http://twitter.com/#!/maxart))
-- Tukish [tr_tr]: %device için bu uygulamayı kurduktan sonra %icon simgesine dokunarak Ev Ekranına Ekleyin. (thanks to [@fatihacet](http://twitter.com/#!/fatihacet))
+- Tukish [tr_tr]: Bu uygulamayı %device'a eklemek için %icon simgesine sonrasında Ana Ekrana Ekle düğmesine basın. (thanks to [Umur Alpay](https://github.com/finansaldenklem) and [@fatihacet](http://twitter.com/#!/fatihacet))
+- Ukrainian [uk_ua]: Встановіть цей веб сайт на Ваш %device: натисніть %icon, а потім <strong>На початковий екран</strong>. (thanks to Sergey)
 - Chinese simplified [zh_cn]: 您可以将此应用程式安装到您的 %device 上。请按 %icon 然后点选<strong>添加至主屏幕</strong>。 (thanks to Macro Yau)
 - Chinese traditional [zh_tw]: 您可以將此應用程式安裝到您的 %device 上。請按 %icon 然後點選<strong>加入主畫面螢幕</strong>。 (thanks to Macro Yau)
 
@@ -43,7 +45,7 @@ The script auto-detects the user's locale and shows the message in the appropria
 
 This software is released under the MIT License.
 
-Copyright (c) 2011 Matteo Spinelli, http://cubiq.org/
+Copyright (c) 2013 Matteo Spinelli, http://cubiq.org/
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
